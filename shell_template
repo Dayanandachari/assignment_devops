@@ -1,0 +1,12 @@
+ #!/bin/bash
+echo " Provide file name"
+read file 
+touch /home/ubuntu/script_template/all_.sh_files/$file.sh
+echo '#!/bin/bash' > /home/ubuntu/script_template/all_.sh_files/$file.sh
+echo '# Pupose: '>> /home/ubuntu/script_template/all_.sh_files/$file.sh
+echo '# Version: ' >> /home/ubuntu/script_template/all_.sh_files/$file.sh
+echo '# Created date:' `date` >> /home/ubuntu/script_template/all_.sh_files/$file.sh
+echo '# Additional comment: ' >> /home/ubuntu/script_template/all_.sh_files/$file.sh
+echo ' # START # ' >> /home/ubuntu/script_template/all_.sh_files/$file.sh
+echo ' # END # '  >> /home/ubuntu/script_template/all_.sh_files/$file.sh
+
