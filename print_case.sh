@@ -13,7 +13,7 @@ case $num in
 ;;
 5) echo " remove folder_m_1"
 ;;
-*) echo "Don not perform task"
+*) echo "Do not perform task"
 esac
 
 
