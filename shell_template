@@ -8,5 +8,5 @@ echo '# Version: ' >> /home/ubuntu/script_template/all_.sh_files/$file.sh
 echo '# Created date:' `date` >> /home/ubuntu/script_template/all_.sh_files/$file.sh
 echo '# Additional comment: ' >> /home/ubuntu/script_template/all_.sh_files/$file.sh
 echo ' # START # ' >> /home/ubuntu/script_template/all_.sh_files/$file.sh
-echo ' # END # '  >> /home/ubuntu/script_template/all_.sh_files/$file.sh
+echo ' # END #'  >> /home/ubuntu/script_template/all_.sh_files/$file.sh
 
